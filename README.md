@@ -1,1 +1,1 @@
-# -Python-University-Exercises
+# Python-University-Exercises
