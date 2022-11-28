@@ -37,21 +37,12 @@ class Lecturer(Person):
 
 lecturer1=Lecturer("Doan", "Pavlov", 43, "Indian","TU Sofia",6)
 # lecturer1.printInfo()
-def findMostExperienced(lecturers):
-    mostexperiencedlecturer = Lecturer("", "", -1, "", "", -1)
-    for x in lecturers:
-        if (x.experience > mostexperiencedlecturer.experience):
-            mostexperiencedlecturer = x
-    print("Most experienced lecturer:")
-    mostexperiencedlecturer.printInfo()
 
 lecturers=[]
 for x in range(5):
     print('Lecturer ',x+1)
-    newLecturer=Lecturer(input("First name: "),input("Last name: "),
-                         int(input("Age: ")),input("Nationality: "),
-                         input("University: "),
-                         int(input("Years of experience: ")))
+    newLecturer=Lecturer(input("First name: "),input("Second name: "),
+                         input("University: "),int(input("Age: ")),int(input("Years of experience:")))
     lecturers.append(newLecturer)
-
-findMostExperienced(lecturers)
+for x in lecturers:
+     x.printInfo()
