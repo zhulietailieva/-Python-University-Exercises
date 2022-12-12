@@ -1,0 +1,4 @@
+Sorted ascending by price:
+[{'Sony - A5 - 2019 - white - 600'}, {'Iphone - 13 - 2020 - red - 1200'}, {'Samsung - S8 - 2008 - black - 1500'}]
+Sorted ascending by year:
+[{'Samsung - S8 - 2008 - black - 1500'}, {'Sony - A5 - 2019 - white - 600'}, {'Iphone - 13 - 2020 - red - 1200'}]
