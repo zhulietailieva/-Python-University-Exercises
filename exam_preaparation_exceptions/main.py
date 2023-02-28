@@ -1,12 +1,21 @@
-n=int(input('n='))
-k=int(input('k='))
+while True:
+    try:
+        n=int(input('n='))
+        k=int(input('k='))
+        break
+    except ValueError as e:
+        print('Invalid n or k! Try again')
 
 list1=[]
 list2=[]
 
 for x in range (0,n):
-    a=int(input(f'number {x+1}='))
-    print(type(a))
+    while True:
+        try:
+            a =int (input(f'number {x + 1}='))
+            break
+        except ValueError:
+            print('Invalid input! Try again!')
     if(a>k):
         list1.append(a)
     else:
